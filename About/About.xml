@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Leviathans - Pacing Manager Patch</name>
+	<author>DanZinagri</author>
+	<packageId>DanZinagri.LeviathansPacingPatch</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+		<li>1.7</li>
+	</supportedVersions>
+	<description>Stops era-gated leviathan quests from lagging.</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>ferny.pacingmanager</packageId>
+			<displayName>Pacing Manager</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3613142246</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>ferny.pacingmanager</li>
+		<li>chezhou.creature.sandworm</li>
+		<li>chezhou.creature.hivelord</li>
+	</loadAfter>
+</ModMetaData>
